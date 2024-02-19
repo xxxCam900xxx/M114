@@ -11,7 +11,7 @@ folgt aus:
 Studieren sie nun ihre fertig ausgefüllte Tabelle, insbesondere die Kolonnen mit den 
 Binärwerten. Was stellen sie fest
 
-| DEZ | HEX | BIN |
+| DEZ | HEX | BIN |  |  |  |  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 0 | 0 |  | 0 | 0 | 0 | 0 |
 | 1 | 1 |  | 0 | 0 | 0 | 1 |
