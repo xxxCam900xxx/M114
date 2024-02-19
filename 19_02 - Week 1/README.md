@@ -219,6 +219,13 @@ Speicherkapazität (in KiB) = Speicherkapazität (in Byte) / 1024
 
 **Der Arbeitsspeicher besitzt also eine Speicherkapazität von 64 KiB.**
 
+# Aufgabe 10
+Zwei Geräte sind mit einer seriellen Leitung und zusätzlichem Taktsignal verbunden. 
+Das Taktsignal beträgt 1MHz.
+- a. Wie viele Bytes können damit pro Sekunde übertragen werden?
+- b. Wie viele Bytes pro Sekunde könnten übertragen werden, wenn die 
+Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre
+
 # Aufgabe 13
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
@@ -229,9 +236,9 @@ Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 ### d Logisch EXOR
 In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A und B aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die XOR-Funktion an. Das Ergebnis ist 1 (wahr), wenn genau eine der beiden Eingangsvariablen den Wert 1 hat, andernfalls ist es 0 (falsch).
 
-| A | B | Y |
-| - | - | - |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+| A | B | | Y |
+| - | - | - | - |
+| 0 | 0 | | 0 |
+| 0 | 1 | | 1 |
+| 1 | 0 | | 1 |
+| 1 | 1 | | 0 |
