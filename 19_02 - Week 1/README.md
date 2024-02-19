@@ -233,7 +233,32 @@ Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - c. Logisch NICHT/NOT (mit einer Eingangs- und einer Ausgangsvariablen)
 - d. Logisch EXOR (mit zwei Eingangs- und einer Ausgangsvariablen)
 
-### d Logisch EXOR
+### a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
+In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A und B aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die UND/AND-Funktion an. Das Ergebnis ist 1 (wahr), wenn beide Eingangsvariablen den Wert 1 haben, andernfalls ist es 0 (falsch).
+| A | B | | Y |
+| - | - | - | - |
+| 0 | 0 | | 0 |
+| 0 | 1 | | 0 |
+| 1 | 0 | | 0 |
+| 1 | 1 | | 1 |
+
+### b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
+In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A und B aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die ODER/OR-Funktion an. Das Ergebnis ist 1 (wahr), wenn mindestens eine der beiden Eingangsvariablen den Wert 1 hat, andernfalls ist es 0 (falsch).
+| A | B | | Y |
+| - | - | - | - |
+| 0 | 0 | | 0 |
+| 0 | 1 | | 1 |
+| 1 | 0 | | 1 |
+| 1 | 1 | | 1 |
+
+### c. Logisch NICHT/NOT
+In dieser Tabelle werden alle möglichen Werte der Eingangsvariable A aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die NOT-Funktion an. Das Ergebnis ist 1 (wahr), wenn die Eingangsvariable den Wert 0 hat, und 0 (falsch), wenn die Eingangsvariable den Wert 1 hat. Die NOT-Funktion invertiert den Wert der Eingangsvariable.
+| A | | Y |
+| - | - | - |
+| 0 | | 1 |
+| 1 | | 0 |
+
+### d. Logisch EXOR
 In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A und B aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die XOR-Funktion an. Das Ergebnis ist 1 (wahr), wenn genau eine der beiden Eingangsvariablen den Wert 1 hat, andernfalls ist es 0 (falsch).
 
 | A | B | | Y |
