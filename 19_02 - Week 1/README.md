@@ -8,9 +8,12 @@
 - [Aufgabe 6](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-6)
 - [Aufgabe 7](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-7)
 - [Aufgabe 8](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-8)
-
-
-
+- [Aufgabe 9](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-9)
+- [Aufgabe 10](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-10)
+- [Aufgabe 11](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-11)
+- [Aufgabe 12](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-12)
+- [Aufgabe 13](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-13)
+- [Aufgabe 14](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-14)
 
 ---------------------------------------
 
@@ -267,3 +270,13 @@ In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A u
 | 0 | 1 | | 1 |
 | 1 | 0 | | 1 |
 | 1 | 1 | | 0 |
+
+# Aufgabe 14
+Eine in der Computertechnik wichtige mathematische Funktion ist die Restwert- oder 
+Modulo-Funktion mit dem in z.B. Java und C verwendeten Operationszeichen %. 
+Versuchen sie nun die folgende Berechnungen auszuführen. Was stellen sie fest?
+- a. 11 % 2 = 1
+- b. 10 % 2 = 0
+- c. 10 % 3 = 1
+- d. 10 % 5 = 0
+- e. 10 % 9 = 1
