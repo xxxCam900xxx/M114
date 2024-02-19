@@ -206,9 +206,11 @@ Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7)
 Sie untersuchen einen Arbeitsspeicher mit 12-Bit-Adress- bzw. 16-Bit-Datenbus.
 Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
 
-2^12 = 4096
+Die Anzahl der möglichen Adressen ergibt sich aus 2 hoch der Anzahl der Adressbits. In diesem Fall haben wir 12 Adressbits, also ergibt sich die Anzahl der möglichen Adressen zu 2^12 = 4096.
 
 Die Größe des Datenbusses beträgt 16 Bit.
+
+Die Speicherkapazität berechnet sich also wie folgt:
 
 Speicherkapazität (in Byte) = Anzahl der Adressen * Größe des Datenbusses
 = 4096 * 16
