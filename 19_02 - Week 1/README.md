@@ -1,6 +1,7 @@
 # A_DATEN_CODIEREN_NUM_ANNE
 
 - [Aufgabe 1](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-1)
+- [Aufgabe 2](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-2)
 
 # Aufgabe 1
 Erstellen sie eine leere Tabelle mit 6 Kolonnen und 16 Zeilen. Füllen sie diese wie 
@@ -29,3 +30,11 @@ Binärwerten. Was stellen sie fest
 | 13 | D |  | 1 | 1 | 0 | 1 |
 | 14 | E |  | 1 | 1 | 1 | 0 |
 | 15 | F |  | 1 | 1 | 1 | 1 |
+
+# Aufgabe 2
+Wandeln sie die folgende Dezimalzahl ohne Taschenrechner in die entsprechende 
+Binärzahl um: 911
+
+| 2048 | 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
