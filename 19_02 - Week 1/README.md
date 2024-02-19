@@ -194,12 +194,10 @@ Dimensionieren sie für den Matterhorn-Express, wo insgesamt 107 Gondeln die
 Touristen von Zermatt auf den Trockenen-Steg befördern, die Codebreite des 
 Binärcodes für die Kabinenzählung?
 
-Um die Codebreite des Binärcodes für die Kabinenzählung im Matterhorn-Express zu bestimmen, müssen wir die Anzahl der Gondeln (107) in binärer Form darstellen und die Anzahl der Bits zählen.
+Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7). Das bedeutet, dass wir mindestens 7 Bits benötigen, um 107 Gondeln zu repräsentieren. 
 
-Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7). Das bedeutet, dass wir mindestens 7 Bits benötigen, um 107 Gondeln zu repräsentieren. Die Binärdarstellung von 107 ist 1101011.
-
+Die Binärdarstellung von 107 ist 1101011.
 Da wir 7 Bits benötigen, um die Kabinenzählung zu codieren, beträgt die Codebreite des Binärcodes 7.
-
 
 # Aufgabe 13
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
