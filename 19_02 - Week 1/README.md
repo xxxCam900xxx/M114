@@ -229,6 +229,43 @@ Das Taktsignal beträgt 1MHz.
 - b. Wie viele Bytes pro Sekunde könnten übertragen werden, wenn die 
 Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre
 
+# Aufgabe 11
+Bei den bisherigen Aufgaben zu Binärcodes, handelte es sich immer um positive, 
+numerische Werte. Bei den Programmiersprachen spricht man vom Datentyp 
+"unsigned integer". Hin und wieder möchte man aber auch die negative Zahlenwelt 
+miteinbeziehen, man nennt dies dann "signed integer", was mit vorzeichenbehafteter
+Ganzzahl übersetzt werden kann.
+(Wobei man gut beraten ist, abzuwägen, ob der Mehraufwand für negative Zahlen tatsächlich 
+gerechtfertigt ist, wie folgendes Beispiel aus der Physik zeigt: Die Celsius-Temperaturskala kennt 
+negative Werte, die Kelvin-Temperaturskala hingegen nicht und beide Skalen messen dieselbe 
+Temperatur. Zum Beispiel entspricht der absolute Temperatur-Nullpunkt (nichts kann kälter sein, dass ist 
+in diesem Fall entscheidend) -273 Grad Celsius aber eben auch 0 Grad Kelvin, Wasser schmilzt bei 0 
+Grad Celsius bzw. 273 Grad Kelvin und der heutige Sommer bot angenehme 35 Grad Celsius oder eben 
+308 Grad Kelvin)
+Möchte man den binären Zahlenstrahl in den negativen Bereich erweitern, liegt die 
+Versuchung nahe, das erste Bit (MSB) als Vorzeichen zu verwenden. Funktioniert 
+leider nicht bzw. nicht in allen Fällen! Die Lösung die funktioniert, nennt man 
+Zweierkomplement. Was darunter zu verstehen ist, wird im Internet unzählige Male 
+erklärt.
+Nun zur Aufgabe: Wir gehen von einer Verarbeitungsbreite von einem Byte aus. 
+(Datenbusbreite:1Byte)
+- a. Nennen sie kleinster und grösster Binärwert bzw. Dezimaläquivalent im Falle 
+von unsigned bzw. Vorzeichenlos.
+- b. Nennen sie kleinster und grösster Binärwert bzw. Dezimaläquivalent im Falle 
+von signed bzw. Vorzeichenbehaftet.
+- c. Wandeln sie die Dezimalzahl +83 in einen vorzeichenbehafteten Binärwert 
+um. (signed)
+- d. Wandeln sie die Dezimalzahl -83 in einen vorzeichenbehafteten Binärwert um. 
+Signed mit 2er-Komplement: 
+- e. Addieren sie die beiden erhaltenen Binärwerte zusammen. Es sollte 0 
+ergeben!
+- f. Wandeln sie die Dezimalzahl 0 in einen vorzeichenbehafteten Binärwert um. 
+(signed). Hat ihre vorangegangene Addition auch diesen Binärwert ergeben?
+- g. Warum können sie bei der gegebenen Datenbusbreite von 1 Byte die 
+Dezimalzahl +150 nicht in einen vorzeichenbehafteten Binärwert umwandeln? 
+(Ziehen sie daraus ihre Lehren für zukünftige Programmiersprachkurse: Immer den korrekten 
+Datentyp in der verlangten Grösse wählen
+
 # Aufgabe 13
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
