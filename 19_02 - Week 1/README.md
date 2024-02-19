@@ -120,3 +120,52 @@ oder
 | 1 | 1 | 1 | - | - | - | 1 | - |
 | - | - | - | - | - | - | - | - |
 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 0 |
+
+# Aufgabe 6 
+Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
+(Tipp: a. ins Dezimalsystem umrechnen, b. ins Hexadezimalsystem umrechnen)
+- a. 1100’0000.1010’1000.0100’1100.1101’0011
+- b. 1011’1110-1000’0011-1000’0101-1101’0101-1110’0100-1111’1110
+
+### a - DEZ
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| - | - | - | - | - | - | - | - |
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+**192**
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| - | - | - | - | - | - | - | - |
+| 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+
+**168**
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| - | - | - | - | - | - | - | - |
+| 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
+
+**76**
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| - | - | - | - | - | - | - | - |
+| 1 | 1 | 0 | 1 | 0 | 0 | 1 | 1 |
+
+**211**
+
+### Ergibt = 192.168.76.211
+
+# Aufgabe 7
+
+# Aufgabe 8
+Dimensionieren sie für den Matterhorn-Express, wo insgesamt 107 Gondeln die 
+Touristen von Zermatt auf den Trockenen-Steg befördern, die Codebreite des 
+Binärcodes für die Kabinenzählung.
+
+
+# Aufgabe 13
+Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
+- a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
+- b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
+- c. Logisch NICHT/NOT (mit einer Eingangs- und einer Ausgangsvariablen)
+- d. Logisch EXOR (mit zwei Eingangs- und einer Ausgangsvariablen)
