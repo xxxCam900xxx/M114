@@ -5,6 +5,14 @@
 - [Aufgabe 3](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-3)
 - [Aufgabe 4](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-4)
 - [Aufgabe 5](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-5)
+- [Aufgabe 6](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-6)
+- [Aufgabe 7](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-7)
+- [Aufgabe 8](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-8)
+
+
+
+
+---------------------------------------
 
 # Aufgabe 1
 Erstellen sie eine leere Tabelle mit 6 Kolonnen und 16 Zeilen. Füllen sie diese wie 
