@@ -199,6 +199,26 @@ Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7)
 - Die Binärdarstellung von 107 ist 1101011.
 - Da wir 7 Bits benötigen, um die Kabinenzählung zu codieren, beträgt die Codebreite des Binärcodes 7.
 
+# Aufgabe 9
+Sie untersuchen einen Arbeitsspeicher mit 12-Bit-Adress- bzw. 16-Bit-Datenbus.
+Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
+
+2^12 = 4096
+
+Die Größe des Datenbusses beträgt 16 Bit.
+
+Speicherkapazität (in Byte) = Anzahl der Adressen * Größe des Datenbusses
+= 4096 * 16
+= 65536 Byte
+
+Um die Speicherkapazität in KiB zu erhalten, teilen wir das Ergebnis durch 1024:
+
+Speicherkapazität (in KiB) = Speicherkapazität (in Byte) / 1024
+= 65536 / 1024
+= 64 KiB
+
+**Der Arbeitsspeicher besitzt also eine Speicherkapazität von 64 KiB.**
+
 # Aufgabe 13
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
