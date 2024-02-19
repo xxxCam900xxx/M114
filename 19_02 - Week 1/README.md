@@ -205,3 +205,13 @@ Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
 - c. Logisch NICHT/NOT (mit einer Eingangs- und einer Ausgangsvariablen)
 - d. Logisch EXOR (mit zwei Eingangs- und einer Ausgangsvariablen)
+
+### d Logisch EXOR
+In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A und B aufgeführt, und die Ausgangsvariable Y gibt den entsprechenden Wert für die XOR-Funktion an. Das Ergebnis ist 1 (wahr), wenn genau eine der beiden Eingangsvariablen den Wert 1 hat, andernfalls ist es 0 (falsch).
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
