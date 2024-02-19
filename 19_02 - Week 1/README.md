@@ -257,6 +257,17 @@ Dezimalzahl +150 nicht in einen vorzeichenbehafteten Binärwert umwandeln?
 (Ziehen sie daraus ihre Lehren für zukünftige Programmiersprachkurse: Immer den korrekten 
 Datentyp in der verlangten Grösse wählen
 
+# Aufgabe 12
+Bisher haben wir immer von ganzen Zahlen gesprochen. Oft genügt das in der realen 
+Welt aber nicht. Dazu ein Beispiel: Teile ich die Ganzzahl 1 durch die Ganzzahl 3 und 
+multipliziere sie darauf wieder mit der Ganzzahl 3 erhalte ich, sofern der 
+Compiler/Interpreter nicht trickst, die Ganzzahl 0, was bekanntlich falsch ist. Dies weil 
+das Resultat der Division nicht als 0.3333333 sondern als ganze Zahl 0 
+(Nachkommastellen werden ignoriert) zwischengespeichert wird. Benötigt wird also 
+ein Datentyp, der mit Fliesskommazahlen (Floating Point Numbers) klarkommt. Wie 
+würden sie eine solche Fliesskommazahl definieren, und wie sie digital abspeichern? 
+Machen sie dazu einen Vorschlag.
+
 # Aufgabe 13
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
