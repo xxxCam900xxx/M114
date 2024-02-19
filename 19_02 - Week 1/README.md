@@ -213,8 +213,6 @@ Speicherkapazität = 2^12 * 16 = 65536 (Bits)
 
 **65536 / (8 * 1024) = 8 (kiB)**
 
-4096 * 
-
 # Aufgabe 10
 Zwei Geräte sind mit einer seriellen Leitung und zusätzlichem Taktsignal verbunden. 
 Das Taktsignal beträgt 1MHz.
