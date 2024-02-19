@@ -133,29 +133,53 @@ Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 | - | - | - | - | - | - | - | - |
 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-**192**
+128 + 64 = **192**
 
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 | - | - | - | - | - | - | - | - |
 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
 
-**168**
+128 + 32 + 8 = **168**
 
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 | - | - | - | - | - | - | - | - |
 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
 
-**76**
+64 + 8 + 4 = **76**
 
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 | - | - | - | - | - | - | - | - |
 | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 1 |
 
-**211**
+128 + 64 + 16 + 2 + 1 = **211**
 
 ### Ergibt = 192.168.76.211
 
+### b - HEX
+
+1011'1110 -> BE
+1000'0011 -> 83
+1000'0101 -> 85
+1101'0101 -> D5
+1110'0100 -> E4
+1111'1110 -> FE
+
 # Aufgabe 7
+Für Linux-Fans: Was könnte die folgende in einem Bash-Script entdeckte Zeile für 
+eine Bedeutung haben? chmod 751 CreateWeeklyReport
+
+chmod 751 CreateWeeklyReport
+
+hat die Bedeutung, dass die Zugriffsrechte für die Datei "CreateWeeklyReport" geändert werden. "chmod" ist ein Befehl in Linux/Unix-Systemen, der verwendet wird, um die Zugriffsrechte von Dateien und Verzeichnissen zu ändern.
+
+Die Zahlen "751" sind die Oktalrepräsentation der Zugriffsrechte. In diesem Fall bedeutet es:
+
+Der Eigentümer der Datei hat Lese-, Schreib- und Ausführungsrechte (7).
+Die Benutzergruppe, zu der die Datei gehört, hat Lese- und Ausführungsrechte (5).
+Andere Benutzer haben nur Ausführungsrechte (1).
+Zusammengefasst bedeutet dies, dass der Eigentümer volle Zugriffsrechte auf die Datei hat, die Benutzergruppe Lese- und Ausführungsrechte hat, und andere Benutzer nur die Ausführung der Datei erlaubt ist.
+
+In diesem Fall wird die Datei "CreateWeeklyReport" wahrscheinlich so konfiguriert, dass sie vom Eigentümer bearbeitet und ausgeführt werden kann, von Mitgliedern der Benutzergruppe ausgeführt werden kann, aber nur die Ausführung für andere Benutzer erlaubt ist.
 
 # Aufgabe 8
 Dimensionieren sie für den Matterhorn-Express, wo insgesamt 107 Gondeln die 
