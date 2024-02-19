@@ -14,6 +14,7 @@
 - [Aufgabe 12](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-12)
 - [Aufgabe 13](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-13)
 - [Aufgabe 14](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-14)
+- [Reflexion](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#reflexion)
 
 ---------------------------------------
 
@@ -311,9 +312,9 @@ Versuchen sie nun die folgende Berechnungen auszuführen. Was stellen sie fest?
 - e. 10 % 9 = 1
 
 # Reflexion
-Ich habe gerlent wie man Binär addiert und wie man Sie Dezimal darstellt.
-Ich habe gelernt das 4 Bit eine Hexziffer entspricht.
-Ich habe gerlernt was AND, OR, NOT und EXOR ist und welche Ausgaben sie mir geben.
-Ich habe gelernt was das chmod 751 CreateWeeklyReport ist. 
+- Ich habe gerlent wie man Binär addiert und wie man Sie Dezimal darstellt.
+- Ich habe gelernt das 4 Bit eine Hexziffer entspricht.
+- Ich habe gerlernt was AND, OR, NOT und EXOR ist und welche Ausgaben sie mir geben.
+- Ich habe gelernt was das chmod 751 CreateWeeklyReport ist. 
 
-Heute habe ich vieles dazu gerlernt und mein Wissen expandiert.
+*Heute habe ich vieles dazu gerlernt und mein Wissen expandiert.*
