@@ -206,24 +206,13 @@ Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7)
 Sie untersuchen einen Arbeitsspeicher mit 12-Bit-Adress- bzw. 16-Bit-Datenbus.
 Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
 
-Die Anzahl der möglichen Adressen ergibt sich aus 2 hoch der Anzahl der Adressbits. 
-- In diesem Fall haben wir 12 Adressbits, also ergibt sich die Anzahl der möglichen Adressen zu **2^12 = 4096**.
+Speicherkapazität = 2^Adressbus * Datenbus
 
-Die Größe des Datenbusses beträgt 16 Bit.
+Speicherkapazität = 2^12 * 16 = 65536 (Bits)
 
-Die Speicherkapazität berechnet sich also wie folgt:
+**65536 / (8 * 1024) = 8 (kiB)**
 
-Speicherkapazität (in bit) = Anzahl der Adressen * Größe des Datenbusses
-- = 4096 * 16
-- = 65536 bit
-
-Um die Speicherkapazität in KiB zu erhalten, teilen wir das Ergebnis durch 1024:
-
-Speicherkapazität (in KiB) = Speicherkapazität (in Byte) / 1024
-= 65536 / 1024
-= 64 KiB
-
-**Der Arbeitsspeicher besitzt also eine Speicherkapazität von 64 KiB.**
+4096 * 
 
 # Aufgabe 10
 Zwei Geräte sind mit einer seriellen Leitung und zusätzlichem Taktsignal verbunden. 
@@ -320,3 +309,11 @@ Versuchen sie nun die folgende Berechnungen auszuführen. Was stellen sie fest?
 - c. 10 % 3 = 1
 - d. 10 % 5 = 0
 - e. 10 % 9 = 1
+
+# Reflexion
+Ich habe gerlent wie man Binär addiert und wie man Sie Dezimal darstellt.
+Ich habe gelernt das 4 Bit eine Hexziffer entspricht.
+Ich habe gerlernt was AND, OR, NOT und EXOR ist und welche Ausgaben sie mir geben.
+Ich habe gelernt was das chmod 751 CreateWeeklyReport ist. 
+
+Heute habe ich vieles dazu gerlernt und mein Wissen expandiert.
