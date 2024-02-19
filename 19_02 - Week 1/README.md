@@ -2,6 +2,9 @@
 
 - [Aufgabe 1](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-1)
 - [Aufgabe 2](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-2)
+- [Aufgabe 3](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-3)
+- [Aufgabe 4](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-4)
+- [Aufgabe 5](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-5)
 
 # Aufgabe 1
 Erstellen sie eine leere Tabelle mit 6 Kolonnen und 16 Zeilen. Füllen sie diese wie 
@@ -51,8 +54,7 @@ Binärzahl um: **911**
 - 7   / 2 = 3   | R-1
 - 3   / 2 = 1   | R-1
 - 1   / 2 = 0   | R-1
-
-**1 1 1 1 0 0 0 1 1 1**
+- **1 1 1 1 0 0 0 1 1 1**
 
 # Aufgabe 3
 Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende 
@@ -72,3 +74,8 @@ Hexadezimalzahl um: **1110'0010'1010'0101**
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |  
 | 1 | 1 | 1 | 0 | - | 0 | 0 | 1 | 0 | - | 1 | 0 | 1 | 0 | - | 0 | 1 | 0 | 1 |  
 | **E** | - | - | - | - | **2** | - | - | - | - | **A** | - | - | - | - | **5** | - | - | - |  
+
+# Aufgabe 5
+Was ergibt die Addition der beiden binären Zahlen 1101'1001 und 0111'0101?
+Beachten sie, dass für das Resultat ebenfalls nur 8 Binärstellen zur Verfügung 
+stehen.
