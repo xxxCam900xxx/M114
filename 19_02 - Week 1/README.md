@@ -33,8 +33,18 @@ Binärwerten. Was stellen sie fest
 
 # Aufgabe 2
 Wandeln sie die folgende Dezimalzahl ohne Taschenrechner in die entsprechende 
-Binärzahl um: 911
+Binärzahl um: **911**
 
 | 2048 | 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+
+# Aufgabe 3
+Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende 
+Dezimalzahl um: 1011'0110
+
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1 | 0 | 1 | 1 | 0 | 1 | 1 | 0 |
+
+128 + 32 + 16 + 4 + 2 = **182**
