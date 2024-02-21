@@ -1,23 +1,21 @@
 # A_DATEN_CODIEREN_NUM_ANNE
 
 ### Inhaltsverzeichnis
-- [X] [Aufgabe 1](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-1)
-- [X] [Aufgabe 2](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-2)
-- [X] [Aufgabe 3](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-3)
-- [X] [Aufgabe 4](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-4)
-- [X] [Aufgabe 5](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-5)
-- [X] [Aufgabe 6](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-6)
-- [X] [Aufgabe 7](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-7)
-- [X] [Aufgabe 8](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-8)
-- [X] [Aufgabe 9](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-9)
-- [ ] [Aufgabe 10](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-10)
-- [ ] [Aufgabe 11](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-11)
-- [ ] [Aufgabe 12](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-12)
-- [X] [Aufgabe 13](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-13)
-- [X] [Aufgabe 14](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#aufgabe-14)
-- [X] [Reflexion](https://github.com/CameronMeile/M114/tree/main/19_02%20-%20Week%201#reflexion)
-
-
+- [X] [Aufgabe 1](#aufgabe-1)
+- [X] [Aufgabe 2](#aufgabe-2)
+- [X] [Aufgabe 3](#aufgabe-3)
+- [X] [Aufgabe 4](#aufgabe-4)
+- [X] [Aufgabe 5](#aufgabe-5)
+- [X] [Aufgabe 6](#aufgabe-6)
+- [X] [Aufgabe 7](#aufgabe-7)
+- [X] [Aufgabe 8](#aufgabe-8)
+- [X] [Aufgabe 9](#aufgabe-9)
+- [ ] [Aufgabe 10](#aufgabe-10)
+- [ ] [Aufgabe 11](#aufgabe-11)
+- [ ] [Aufgabe 12](#aufgabe-12)
+- [X] [Aufgabe 13](#aufgabe-13)
+- [X] [Aufgabe 14](#aufgabe-14)
+- [X] [Reflexion](#reflexion)
 
 # Aufgabe 1
 Erstellen sie eine leere Tabelle mit 6 Kolonnen und 16 Zeilen. Füllen sie diese wie 
