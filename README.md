@@ -5,6 +5,8 @@
 
 -------------
 
+# Kompetenzen
+
 > 1. Codierungen von Daten situationsbezogen auswählen und einsetzen. Aufzeigen, welche Auswirkung die Codierung auf die Darstellung von Daten hat.
 
 > 2. Kompressionsverfahren gemäss Vorgaben für die Aufbewahrung, Wiederherstellung und übertragung von Daten auswählen und einsetzen.
