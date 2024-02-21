@@ -1,23 +1,23 @@
 # A_DATEN_CODIEREN_NUM_ANNE
 
 ### Inhaltsverzeichnis
-- [X] [Aufgabe 1](#aufgabe-1)
-- [X] [Aufgabe 2](#aufgabe-2)
-- [X] [Aufgabe 3](#aufgabe-3)
-- [X] [Aufgabe 4](#aufgabe-4)
-- [X] [Aufgabe 5](#aufgabe-5)
-- [X] [Aufgabe 6](#aufgabe-6)
-- [X] [Aufgabe 7](#aufgabe-7)
-- [X] [Aufgabe 8](#aufgabe-8)
-- [X] [Aufgabe 9](#aufgabe-9)
-- [ ] [Aufgabe 10](#aufgabe-10)
-- [ ] [Aufgabe 11](#aufgabe-11)
-- [ ] [Aufgabe 12](#aufgabe-12)
-- [X] [Aufgabe 13](#aufgabe-13)
-- [X] [Aufgabe 14](#aufgabe-14)
+- [X] [Aufgabe 1](#aufgabe-1---dez--hex--bin)
+- [X] [Aufgabe 2](#aufgabe-2---dez-to-bin)
+- [X] [Aufgabe 3](#aufgabe-3---bin-to-dez)
+- [X] [Aufgabe 4](#aufgabe-4---bin-to-hex)
+- [X] [Aufgabe 5](#aufgabe-5---bin--bin)
+- [X] [Aufgabe 6](#aufgabe-6---zusätzliches-umwandeln)
+- [X] [Aufgabe 7](#aufgabe-7---linux-751)
+- [X] [Aufgabe 8](#aufgabe-8---matterhorn-express)
+- [X] [Aufgabe 9](#aufgabe-9---arbeitspeicher)
+- [ ] [Aufgabe 10](#aufgabe-10---taktsignal)
+- [ ] [Aufgabe 11](#aufgabe-11---zusatz-aufgaben)
+- [ ] [Aufgabe 12](#aufgabe-12---fliesskommazahlen)
+- [X] [Aufgabe 13](#aufgabe-13---and--or--not--exor)
+- [X] [Aufgabe 14](#aufgabe-14---modulo-funktion)
 - [X] [Reflexion](#reflexion)
 
-# Aufgabe 1
+# Aufgabe 1 - DEZ / HEX / BIN
 Erstellen sie eine leere Tabelle mit 6 Kolonnen und 16 Zeilen. Füllen sie diese wie 
 folgt aus:
 1. Kolonne: Dezimalzahlen von 0 bis 15
@@ -45,7 +45,7 @@ Binärwerten. Was stellen sie fest
 | 14 | E |  | 1 | 1 | 1 | 0 |
 | 15 | F |  | 1 | 1 | 1 | 1 |
 
-# Aufgabe 2
+# Aufgabe 2 - DEZ to BIN
 Wandeln sie die folgende Dezimalzahl ohne Taschenrechner in die entsprechende 
 Binärzahl um: **911**
 
@@ -67,7 +67,7 @@ Binärzahl um: **911**
 - 1   / 2 = 0   | R-1
 - **1 1 1 1 0 0 0 1 1 1**
 
-# Aufgabe 3
+# Aufgabe 3 - BIN to DEZ
 Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende 
 Dezimalzahl um: 1011'0110
 
@@ -77,7 +77,7 @@ Dezimalzahl um: 1011'0110
 
 128 + 32 + 16 + 4 + 2 = **182**
 
-# Aufgabe 4
+# Aufgabe 4 - BIN to HEX
 Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende 
 Hexadezimalzahl um: **1110'0010'1010'0101**
 
@@ -86,7 +86,7 @@ Hexadezimalzahl um: **1110'0010'1010'0101**
 | 1 | 1 | 1 | 0 | - | 0 | 0 | 1 | 0 | - | 1 | 0 | 1 | 0 | - | 0 | 1 | 0 | 1 |  
 | **E** | - | - | - | - | **2** | - | - | - | - | **A** | - | - | - | - | **5** | - | - | - |  
 
-# Aufgabe 5
+# Aufgabe 5 - BIN + BIN
 Was ergibt die Addition der beiden binären Zahlen 1101'1001 und 0111'0101?
 Beachten sie, dass für das Resultat ebenfalls nur 8 Binärstellen zur Verfügung 
 stehen.
@@ -132,7 +132,7 @@ oder
 | - | - | - | - | - | - | - | - |
 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 0 |
 
-# Aufgabe 6 
+# Aufgabe 6 - Zusätzliches Umwandeln
 Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 (Tipp: a. ins Dezimalsystem umrechnen, b. ins Hexadezimalsystem umrechnen)
 - a. 1100’0000.1010’1000.0100’1100.1101’0011
@@ -175,7 +175,7 @@ Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 1110'0100 -> E4
 1111'1110 -> FE
 
-# Aufgabe 7
+# Aufgabe 7 - Linux 751
 Für Linux-Fans: Was könnte die folgende in einem Bash-Script entdeckte Zeile für 
 eine Bedeutung haben? chmod 751 CreateWeeklyReport
 
@@ -192,7 +192,7 @@ Zusammengefasst bedeutet dies, dass der Eigentümer volle Zugriffsrechte auf die
 
 In diesem Fall wird die Datei "CreateWeeklyReport" wahrscheinlich so konfiguriert, dass sie vom Eigentümer bearbeitet und ausgeführt werden kann, von Mitgliedern der Benutzergruppe ausgeführt werden kann, aber nur die Ausführung für andere Benutzer erlaubt ist.
 
-# Aufgabe 8
+# Aufgabe 8 - Matterhorn-Express
 Dimensionieren sie für den Matterhorn-Express, wo insgesamt 107 Gondeln die 
 Touristen von Zermatt auf den Trockenen-Steg befördern, die Codebreite des 
 Binärcodes für die Kabinenzählung?
@@ -202,7 +202,7 @@ Die nächsthöhere Potenz von 2, die größer oder gleich 107 ist, ist 128 (2^7)
 - Die Binärdarstellung von 107 ist 1101011.
 - Da wir 7 Bits benötigen, um die Kabinenzählung zu codieren, beträgt die Codebreite des Binärcodes 7.
 
-# Aufgabe 9
+# Aufgabe 9 - Arbeitspeicher
 Sie untersuchen einen Arbeitsspeicher mit 12-Bit-Adress- bzw. 16-Bit-Datenbus.
 Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
 
@@ -212,7 +212,7 @@ Speicherkapazität = 2^12 * 16 = 65536 (Bits)
 
 **65536 / (8 * 1024) = 8 (kiB)**
 
-# Aufgabe 10
+# Aufgabe 10 - Taktsignal
 Zwei Geräte sind mit einer seriellen Leitung und zusätzlichem Taktsignal verbunden. 
 Das Taktsignal beträgt 1MHz.
 - a. Wie viele Bytes können damit pro Sekunde übertragen werden?
@@ -221,7 +221,7 @@ Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre
 
 ### TO BE CONTINUE...
 
-# Aufgabe 11
+# Aufgabe 11 - Zusatz Aufgaben
 Bei den bisherigen Aufgaben zu Binärcodes, handelte es sich immer um positive, 
 numerische Werte. Bei den Programmiersprachen spricht man vom Datentyp 
 "unsigned integer". Hin und wieder möchte man aber auch die negative Zahlenwelt 
@@ -260,7 +260,7 @@ Datentyp in der verlangten Grösse wählen
 
 ### TO BE CONTINUE...
 
-# Aufgabe 12
+# Aufgabe 12 - Fliesskommazahlen
 Bisher haben wir immer von ganzen Zahlen gesprochen. Oft genügt das in der realen 
 Welt aber nicht. Dazu ein Beispiel: Teile ich die Ganzzahl 1 durch die Ganzzahl 3 und 
 multipliziere sie darauf wieder mit der Ganzzahl 3 erhalte ich, sofern der 
@@ -273,7 +273,7 @@ Machen sie dazu einen Vorschlag.
 
 ### TO BE CONTINUE...
 
-# Aufgabe 13
+# Aufgabe 13 - AND / OR / NOT / EXOR
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 - a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
 - b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
@@ -315,7 +315,7 @@ In dieser Tabelle werden alle möglichen Kombinationen der Eingangsvariablen A u
 | 1 | 0 | | 1 |
 | 1 | 1 | | 0 |
 
-# Aufgabe 14
+# Aufgabe 14 - Modulo-Funktion
 Eine in der Computertechnik wichtige mathematische Funktion ist die Restwert- oder 
 Modulo-Funktion mit dem in z.B. Java und C verwendeten Operationszeichen %. 
 Versuchen sie nun die folgende Berechnungen auszuführen. Was stellen sie fest?
