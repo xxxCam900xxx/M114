@@ -168,12 +168,14 @@ Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 
 ### b - HEX
 
-1011'1110 -> BE
-1000'0011 -> 83
-1000'0101 -> 85
-1101'0101 -> D5
-1110'0100 -> E4
-1111'1110 -> FE
+- 1011'1110 -> BE
+- 1000'0011 -> 83
+- 1000'0101 -> 85
+- 1101'0101 -> D5
+- 1110'0100 -> E4
+- 1111'1110 -> FE
+
+### Ergibt = BE 83 85 D5 E4 FEWS
 
 # Aufgabe 7 - Linux 751
 Für Linux-Fans: Was könnte die folgende in einem Bash-Script entdeckte Zeile für 
