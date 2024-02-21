@@ -181,7 +181,9 @@ Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 Für Linux-Fans: Was könnte die folgende in einem Bash-Script entdeckte Zeile für 
 eine Bedeutung haben? chmod 751 CreateWeeklyReport
 
+```Bash
 chmod 751 CreateWeeklyReport
+```
 
 hat die Bedeutung, dass die Zugriffsrechte für die Datei "CreateWeeklyReport" geändert werden. "chmod" ist ein Befehl in Linux/Unix-Systemen, der verwendet wird, um die Zugriffsrechte von Dateien und Verzeichnissen zu ändern.
 
