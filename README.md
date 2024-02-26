@@ -2,6 +2,7 @@
 
 # Inhaltsverzeichnis
 - [Week1 - 19.02.2024](/19_02%20-%20Week%201/README.md)
+- [Week2 - 26.02.2024](/26_02%20-%20Week%202/README.md)
 - [Kompetenzen](#kompetenzen)
 
 -------------
