@@ -220,7 +220,9 @@ Das Taktsignal beträgt 1MHz.
 - b. Wie viele Bytes pro Sekunde könnten übertragen werden, wenn die 
 Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre
 
-### TO BE CONTINUE...
+- a. Bei einer seriellen Verbindung mit einem Taktsignal von 1 MHz wird pro Takt ein Bit übertragen. Da 1 Byte aus 8 Bits besteht, können pro Sekunde 1 MHz / 8 = 125.000 Bytes übertragen werden.
+
+- b. Wenn die Verbindung 8 Bit-parallel wäre, würde pro Taktzyklus ein Byte übertragen werden. Da das Taktsignal immer noch 1 MHz beträgt, können pro Sekunde auch 1 MHz Bytes übertragen werden. Also könnten in diesem Fall ebenfalls 1.000.000 Bytes pro Sekunde übertragen werden.
 
 # Aufgabe 11
 Bei den bisherigen Aufgaben zu Binärcodes, handelte es sich immer um positive, 
