@@ -264,7 +264,63 @@ Dezimalzahl +150 nicht in einen vorzeichenbehafteten Binärwert umwandeln?
 (Ziehen sie daraus ihre Lehren für zukünftige Programmiersprachkurse: Immer den korrekten 
 Datentyp in der verlangten Grösse wählen
 
-### TO BE CONTINUE...
+#### a. 
+Für einen unsigned bzw. vorzeichenlosen Binärwert mit einer Verarbeitungsbreite von einem Byte (8 Bits) sind die kleinste und größte mögliche Zahl wie folgt:
+
+- **Kleinster Binärwert** (unsigned): 00000000
+- **Kleinster Dezimalwert** (unsigned): 0
+- **Größter Binärwert** (unsigned): 11111111
+- **Größter Dezimalwert** (unsigned): 255
+
+#### b.
+ Für einen signed bzw. vorzeichenbehafteten Binärwert mit einer Verarbeitungsbreite von einem Byte sind die kleinste und größte mögliche Zahl wie folgt:
+
+- **Kleinster Binärwert** (signed): 10000000
+- **Kleinster Dezimalwert** (signed): -128
+- **Größter Binärwert** (signed): 01111111
+- **Größter Dezimalwert** (signed): 127
+
+#### c.
+Um die Dezimalzahl +83 in einen vorzeichenbehafteten Binärwert umzuwandeln, können wir den Betrag der Zahl verwenden und das MSB (Most Significant Bit) als Vorzeichenbit setzen:
+
+**+83 (Dezimal) = 01010011 (Binär)**
+
+#### d.
+Um die Dezimalzahl -83 in einen vorzeichenbehafteten Binärwert mit 2er-Komplement umzuwandeln, können wir den Betrag der Zahl in Binär umwandeln und dann die Bits invertieren und 1 addieren:
+
+**-83 (Dezimal) = 10101101 (Binär) (Betrag)**
+- Invertieren: 01010010
+- Addieren: 00000001
+
+**-83 (Binär, signed mit 2er-Komplement) = 01010011**
+
+#### e.
+Wenn wir die beiden Binärwerte von c und d addieren, erhalten wir:
+
+- 01010011 (Binär, +83)
+- 01010011 (Binär, -83)
+- 10100110 (Binär, -150)
+
+Das Ergebnis ist nicht 0, sondern -150 (Dezimal). Das liegt daran, dass die Addition von zwei vorzeichenbehafteten Binärzahlen den Überlauf des MSB (Most Significant Bit) verursacht hat.
+
+#### f. 
+Um die Dezimalzahl 0 in einen vorzeichenbehafteten Binärwert umzuwandeln, verwenden wir einfach die Darstellung von 0:
+
+- 0 (Dezimal) = 00000000 (Binär)
+
+Ja, wenn wir den vorzeichenbehafteten Binärwert von 0 zu den vorherigen Binärwerten von +83 und -83 addieren, erhalten wir:
+
+- 00000000 (Binär, 0)
+- 01010011 (Binär, +83)
+- 01010011 (Binär, -83)
+- 10100110 (Binär, -150)
+
+Das Ergebnis ist immer noch -150 (Dezimal).
+
+#### g.
+Bei einer Verarbeitungsbreite von einem Byte können wir die Dezimalzahl +150 nicht in einen vorzeichenbehafteten Binärwert umwandeln, da der größte darstellbare Wert für signed bzw. vorzeichenbehaftete Binärzahlen mit einem Byte 127 ist. Die Zahl +150 ist größer als der darstellbare Bereich für signed 8-Bit-Zahlen.
+
+Dies zeigt, dass es wichtig ist, den richtigen Datentyp mit der erforderlichen Größe zu wählen. In zukünftigen Programmiersprachkursen sollte man darauf achten, die geeigneten Datentypen für die zu verarbeitenden Daten zu verwenden, um Probleme mit Überläufen und falschen Ergebnissen zu vermeiden.
 
 # Aufgabe 12 - Fliesskommazahlen
 Bisher haben wir immer von ganzen Zahlen gesprochen. Oft genügt das in der realen 
@@ -277,7 +333,7 @@ ein Datentyp, der mit Fliesskommazahlen (Floating Point Numbers) klarkommt. Wie
 würden sie eine solche Fliesskommazahl definieren, und wie sie digital abspeichern? 
 Machen sie dazu einen Vorschlag.
 
-### TO BE CONTINUE...
+- In der realen Welt benötigen wir Fließkommazahlen, um Bruchzahlen und große/kleine Zahlen darzustellen. Der IEEE 754-Standard definiert ein Format für die Repräsentation von Fließkommazahlen. Es umfasst ein Vorzeichenbit, einen Exponenten und eine Mantisse. Die digitale Speicherung erfolgt gemäß diesem Standard. Fließkommazahlen ermöglichen genaue Berechnungen, können jedoch Rundungsfehler enthalten.
 
 # Aufgabe 13 - AND / OR / NOT / EXOR
 Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
