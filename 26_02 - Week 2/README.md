@@ -4,6 +4,8 @@
 - [Aufgabe 1](#aufgabe-1)
 - [Aufgabe 2](#aufgabe-2)
 - [Aufgabe 3](#aufgabe-3)
+- [Aufgabe 4](#aufgabe-4)
+- [Aufgabe 5](#aufgabe-5)
 
 ---------------------------------------
 
@@ -59,10 +61,10 @@ geschrieben werden.) Wie erklären sie sich die Unterschiede?
 Bei den weiteren Fragen interessieren uns nur noch die ASCII- und die UTF8-Datei: Bekanntlich ist UTF-8 in den ersten 128 Zeichen deckungsgleich mit 
 ASCII. Untersuchen sie nun die beiden HEX-Dumps und geben sie an, welche 
 Zeichen unterschiedlich codiert sind. Ein kleiner Tipp: Es sind deren zwei.
-##### ASCII-HEX-Dump:
+#### ASCII-HEX-Dump:
 50 61 72 69 74 61 74 20 53 63 68 77 65 69 7A 65 72 2D 46 72 61 6E 6B 65 6E 20 7A 75 20 45 75 72 6F 20 62 65 64 65 75 74 65 74 3A 20 31 30 30 43 48 46 20 65 6E 74 73 70 72 65 63 68 65 6E 20 31 30 30 E2 82 AC
 
-##### UTF-8-HEX-Dump:
+#### UTF-8-HEX-Dump:
 50 61 72 C3 A4 74 69 74 20 53 63 68 77 65 69 7A 65 72 2D 46 72 61 6E 6B 65 6E 20 7A 75 20 45 75 72 6F 20 62 65 64 65 75 74 65 74 3A 20 31 30 30 43 48 46 20 65 6E 74 73 70 72 65 63 68 65 6E 20 31 30 30 E2 82 AC
 
 #### Unterschiede
