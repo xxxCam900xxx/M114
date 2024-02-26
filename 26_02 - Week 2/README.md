@@ -23,3 +23,7 @@ PDF-Datei und ergänzen sie damit ihr ePortfolio.
 # Aufgabe 2
 Suchen sie im Internet nach einer Webseite, wo Unicode-Zeichen gelistet sind 
 und merken bzw. notieren sie sich den Link.
+
+![Unicode Tabelle](/26_02%20-%20Week%202/Content/Unicode%20Tabelle.png)
+- [Unicode Website](https://www.compart.com/de/unicode/category/So)
+- [Unicode Wikipedia](https://de.wikipedia.org/wiki/Unicodeblock_Verschiedene_Symbole)
