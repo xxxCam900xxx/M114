@@ -100,27 +100,25 @@ findet man im Internet.
 ![QR-CODE](/26_02%20-%20Week%202/Content/QR-Code.svg)
 
 # Aufgabe 5
-Ihre Firma wird mit dem Design von Tickets für ein Fussballstadion beauftragt. Das 
-Eintrittsticket soll mit einem QR-Code versehen sein, der alle wichtigen Informationen 
-zur Buchung enthält. Dies soll ermöglichen, das Ticket jederzeit und überall von 
-Offline-QR-Readern lesen und überprüfen zu lassen bzw. Zugang zu den 
-Stadionbereichen zu gewähren. Das Ticket soll die folgenden, codierten 
+Ihre Firma wird mit dem Design von Tickets für ein Fussballstadion beauftragt. Das Eintrittsticket soll mit einem QR-Code versehen sein, der alle wichtigen Informationen zur Buchung enthält. Dies soll ermöglichen, das Ticket jederzeit und überall von Offline-QR-Readern lesen und überprüfen zu lassen bzw. Zugang zu den Stadionbereichen zu gewähren. Das Ticket soll die folgenden, codierten 
 Informationen enthalten: 
-### a. Datum und Uhrzeit der Veranstaltung
-### b. Fortlaufende, alphanumerische Ticketnummer (Ticketnummern seit Tag-0)
-### c. Numerische Sitzplatznummer (Jeder Sitzplatz hat eigene Nummer)
-### d. Tribünensektor A-Z (Für einfache Platzeinweisung der Besucher)
-### e. ID- oder Passnummer des Besuchers (Tickets nicht übertragbar)
-- Überlegen sie sich, ob das Ticket fälschungssicher ist. Braucht es allenfalls 
+
+a. Datum und Uhrzeit der Veranstaltung
+b. Fortlaufende, alphanumerische Ticketnummer (Ticketnummern seit Tag-0)
+c. Numerische Sitzplatznummer (Jeder Sitzplatz hat eigene Nummer)
+d. Tribünensektor A-Z (Für einfache Platzeinweisung der Besucher)
+e. ID- oder Passnummer des Besuchers (Tickets nicht übertragbar)
+
+• Überlegen sie sich, ob das Ticket fälschungssicher ist. Braucht es allenfalls 
 noch eine Prüfziffer, Checksum etc.?
-- Wenn der Besucher am Stadioneingang erscheint, zeigt er sein Ticket. Dieses 
+• Wenn der Besucher am Stadioneingang erscheint, zeigt er sein Ticket. Dieses 
 wird von einem Platzanweiser mit einem QR-Code-Leser gelesen. Damit kann 
 er die Personalie und Gültigkeit des Tickets überprüfen und den Besucher 
 anschliessend in den richtigen Stadionsektor leiten.
-- Bilden sie diesen Datensatz in einen QR-Code ab. Erstellen sie QR-Codes für 
+• Bilden sie diesen Datensatz in einen QR-Code ab. Erstellen sie QR-Codes für 
 fiktive Veranstaltungen. Testen sie ihre QR-Codes mit ihrem Banknachbarn/in 
 gegenseitig aus.
-- Applikationen die alphanumerischen Text in einen QR-Code und zurück 
+• Applikationen die alphanumerischen Text in einen QR-Code und zurück 
 wandeln, findet man im Internet.
-- Auf Komplettlösungen aus dem Internet - es gibt zu diesem Thema mehr oder 
+• Auf Komplettlösungen aus dem Internet - es gibt zu diesem Thema mehr oder 
 weniger "pfannenfertige" Applikationen - bitte aber verzichten.
