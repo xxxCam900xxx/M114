@@ -86,12 +86,29 @@ Das kleinstwertigste Byte wird an der Anfangsadresse gespeichert, also die klein
 Im Notepad++ kann man unter dem Menüpunkt Codierung von ASCII zu UTF 
 umschalten. Spielen sie damit etwas herum und notieren sie sich, was in der 
 Darstellung jeweils ändert. 
+
+##### TO BE CONTINUE...
 ### g.
 Für Anspruchsvolle: Der UTF-8-Code kann je nach Zeichen ein, zwei, drei 
 oder vier Byte lang sein. Wie kann der Textreader erkennen, wann ein UTF-8 
 Zeichencode beginnt und wann er endet? Untersuchen sie dies anhand der 
 beiden Textsamples und lesen sie in z.B. Wikipedia die entsprechende 
 Theorie zu UTF-8 durch. Tipp: Startbyte und Folgebyte.
+
+Die UTF-8-Codierung verwendet Startbytes und Folgebytes, um zu bestimmen, wie viele Bytes für ein Zeichen verwendet werden. Ein Textreader erkennt den Beginn und das Ende eines UTF-8-Zeichencodes, indem er die folgenden Regeln anwendet:
+
+Startbytes haben spezifische Bitmuster, die die Anzahl der Bytes für ein Zeichen anzeigen.
+
+- Ein **1-Byte-Zeichen** (ASCII) beginnt immer mit 0 (0xxxxxxx).
+- Ein **2-Byte-Zeichen** beginnt mit "110" (110xxxxx).
+- Ein **3-Byte-Zeichen** beginnt mit "1110" (1110xxxx).
+- Ein **4-Byte-Zeichen** beginnt mit "11110" (11110xxx).
+
+Folgebytes folgen immer auf Startbytes und beginnen mit **"10" (10xxxxxx)**.
+
+Anhand dieser Regeln kann ein Textreader den Beginn und das Ende eines Zeichencodes erkennen und die entsprechende Anzahl von Bytes für die Interpretation des Zeichens verwenden.
+
+Beim Betrachten der beiden Textsamples wurde festgestellt, welche Zeichen mit ein, zwei oder drei Bytes codiert werden. Der Textreader identifiziert die Startbytes und Folgebytes in der UTF-8-Codierung, um die Zeichen korrekt zu interpretieren.
 
 # Aufgabe 4
 Denken sie sich eine kurze Botschaft, URL etc. aus und bilden sie diese Information 
@@ -105,22 +122,20 @@ findet man im Internet.
 Ihre Firma wird mit dem Design von Tickets für ein Fussballstadion beauftragt. Das Eintrittsticket soll mit einem QR-Code versehen sein, der alle wichtigen Informationen zur Buchung enthält. Dies soll ermöglichen, das Ticket jederzeit und überall von Offline-QR-Readern lesen und überprüfen zu lassen bzw. Zugang zu den Stadionbereichen zu gewähren. Das Ticket soll die folgenden, codierten 
 Informationen enthalten: 
 
-a. Datum und Uhrzeit der Veranstaltung
-b. Fortlaufende, alphanumerische Ticketnummer (Ticketnummern seit Tag-0)
-c. Numerische Sitzplatznummer (Jeder Sitzplatz hat eigene Nummer)
-d. Tribünensektor A-Z (Für einfache Platzeinweisung der Besucher)
-e. ID- oder Passnummer des Besuchers (Tickets nicht übertragbar)
+##### a. Datum und Uhrzeit der Veranstaltung
+##### b. Fortlaufende, alphanumerische Ticketnummer (Ticketnummern seit Tag-0)
+##### c. Numerische Sitzplatznummer (Jeder Sitzplatz hat eigene Nummer)
+##### d. Tribünensektor A-Z (Für einfache Platzeinweisung der Besucher)
+##### e. ID- oder Passnummer des Besuchers (Tickets nicht übertragbar)
+---
+• Überlegen sie sich, ob das Ticket fälschungssicher ist. Braucht es allenfalls noch eine Prüfziffer, Checksum etc.?
 
-• Überlegen sie sich, ob das Ticket fälschungssicher ist. Braucht es allenfalls 
-noch eine Prüfziffer, Checksum etc.?
-• Wenn der Besucher am Stadioneingang erscheint, zeigt er sein Ticket. Dieses 
-wird von einem Platzanweiser mit einem QR-Code-Leser gelesen. Damit kann 
-er die Personalie und Gültigkeit des Tickets überprüfen und den Besucher 
-anschliessend in den richtigen Stadionsektor leiten.
-• Bilden sie diesen Datensatz in einen QR-Code ab. Erstellen sie QR-Codes für 
-fiktive Veranstaltungen. Testen sie ihre QR-Codes mit ihrem Banknachbarn/in 
-gegenseitig aus.
-• Applikationen die alphanumerischen Text in einen QR-Code und zurück 
-wandeln, findet man im Internet.
-• Auf Komplettlösungen aus dem Internet - es gibt zu diesem Thema mehr oder 
-weniger "pfannenfertige" Applikationen - bitte aber verzichten.
+• Wenn der Besucher am Stadioneingang erscheint, zeigt er sein Ticket. Dieses wird von einem Platzanweiser mit einem QR-Code-Leser gelesen. Damit kann er die Personalie und Gültigkeit des Tickets überprüfen und den Besucher anschliessend in den richtigen Stadionsektor leiten.
+
+• Bilden sie diesen Datensatz in einen QR-Code ab. Erstellen sie QR-Codes für fiktive Veranstaltungen. Testen sie ihre QR-Codes mit ihrem Banknachbarn/in gegenseitig aus.
+
+• Applikationen die alphanumerischen Text in einen QR-Code und zurück wandeln, findet man im Internet.
+
+• Auf Komplettlösungen aus dem Internet - es gibt zu diesem Thema mehr oder weniger "pfannenfertige" Applikationen - bitte aber verzichten.
+
+![](/26_02%20-%20Week%202/Content/GOOD.png)
