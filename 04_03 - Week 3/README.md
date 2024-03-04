@@ -10,6 +10,7 @@
 - [Aufgabe 1](#aufgabe-1)
 - [Aufgabe 2](#aufgabe-2)
 - [Aufgabe 3](#aufgabe-3)
+- [Aufgabe 4](#aufgabe-4)
 
 ---------------------------------------
 # Theorie
@@ -60,3 +61,12 @@ Kantenlänge sinnvoll? Was wäre, wenn dieses Bild nur aus einer Farbe besteht?
 In einem quadratischen Bild mit 20 Pixel Kantenlänge gibt es insgesamt 400 Pixel. Wenn das gesamte Bild aus einer einzigen Farbe besteht, hätten wir eine maximale Anzahl von aufeinanderfolgenden Pixeln mit derselben Farbe von 400.
 
 Um diese Anzahl binär darzustellen, benötigen wir 9 Bits (2^9 = 512 > 400, aber 2^8 = 256 < 400). Daher wäre eine Bitbreite von 9 Bits sinnvoll, um die RLC-Codierung zu verwenden, wenn das Bild nur aus einer Farbe besteht.
+
+# Aufgabe 4
+**RLC**: Sie erhalten diesen RL-Code:
+```
+010100011110010010010010010010010010010110010110010010010010010010010010001
+```
+Folgendes ist ihnen dazu bekannt: Es handelt sich um eine quadratische Schwarz-Weiss-Rastergrafik mit einer Kantenlänge von 8 Pixel. Es wird links oben mit der 
+Farbe Weiss begonnen. Eine Farbe kann sich nicht mehr als siebenmal wiederholen. 
+Zeichnen sie die Grafik auf. Was stellt sie dar?
