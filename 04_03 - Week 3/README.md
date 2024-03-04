@@ -11,6 +11,7 @@
 - [Aufgabe 2](#aufgabe-2)
 - [Aufgabe 3](#aufgabe-3)
 - [Aufgabe 4](#aufgabe-4)
+- [Aufgabe 5](#aufgabe-5)
 
 ---------------------------------------
 # Theorie
@@ -70,3 +71,14 @@ Um diese Anzahl binär darzustellen, benötigen wir 9 Bits (2^9 = 512 > 400, abe
 Folgendes ist ihnen dazu bekannt: Es handelt sich um eine quadratische Schwarz-Weiss-Rastergrafik mit einer Kantenlänge von 8 Pixel. Es wird links oben mit der 
 Farbe Weiss begonnen. Eine Farbe kann sich nicht mehr als siebenmal wiederholen. 
 Zeichnen sie die Grafik auf. Was stellt sie dar?
+
+# Aufgabe 5
+LZW-Verfahren
+a. Erstellen sie die LZW-Codierung für das Wort «ANANAS» und überprüfen sie 
+mit der Dekodierung ihr Resultat. 
+b. Versuchen sie den erhaltenen LZW-Code «ERDBE<256>KL<260>» zu 
+dekomprimieren.
+
+| Schritt | Zeichenkette | Gefunden | Gespeichert | Temp Wörterbuch |
+| --- | --- | --- | --- | --- |
+| 1. | **A**NANAS | A | **A** | A -> 265 |
