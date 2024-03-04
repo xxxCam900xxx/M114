@@ -12,6 +12,9 @@
 - [Aufgabe 3](#aufgabe-3)
 - [Aufgabe 4](#aufgabe-4)
 - [Aufgabe 5](#aufgabe-5)
+- [Aufgabe 6](#aufgabe-6)
+    - [Rotiert](#rotiert)
+    - [Alphabethisch](#alphabethisch)
 
 ---------------------------------------
 # Theorie
@@ -76,9 +79,50 @@ Zeichnen sie die Grafik auf. Was stellt sie dar?
 LZW-Verfahren
 a. Erstellen sie die LZW-Codierung für das Wort «ANANAS» und überprüfen sie 
 mit der Dekodierung ihr Resultat. 
-b. Versuchen sie den erhaltenen LZW-Code «ERDBE<256>KL<260>» zu 
-dekomprimieren.
 
 | Schritt | Zeichenkette | Gefunden | Gespeichert | Temp Wörterbuch |
 | --- | --- | --- | --- | --- |
-| 1. | **A**NANAS | A | **A** | A -> 265 |
+| 1. | **A**NANAS | A | **A** | AN -> 256 |
+| 2. | **N**ANAS | N | **N** | NA -> 257 |
+| 3. | **A**NAS | AN | **256** | ANA -> 258 |
+| 4. | **N**AS | NA | **257** | NAS -> 259 |
+
+b. Versuchen sie den erhaltenen LZW-Code «ERDBE<256>KL<260>» zu 
+dekomprimieren.
+| Schritt | Zeichenkette | Gefunden | Gespeichert | Temp Wörterbuch |
+| --- | --- | --- | --- | --- |
+| 1. | **E**RDBE<256>KL<260> | E | **E** | - |
+| 2. | E**R**DBE<256>KL<260> | R | **R** | ER -> 256 |
+| 3. | ER**D**BE<256>KL<260> | D | **D** | RD -> 257 |
+| 4. | ERD**B**E<256>KL<260> | B | **B** | DB -> 258 |
+| 5. | ERDB**E**<256>KL<260> | E | **E** | BE -> 259 |
+| 6. | ERDBE **<256>** KL<260> | 256 | **256** | EE -> 260 |
+| 7. | ERDBE<256>**K**L<260> | K | **K** | RL -> 261 |
+| 8. | ERDBE<256>K**L**<260> | L | **L** | KL -> 262 |
+| 9. | ERDBE<256>KL **<260>** | 260 | **260** | LE -> 263 |
+
+Lösung : **ERDBEERKLEE**
+
+# Aufgabe 6
+**BWT** (Burrows-Wheeler-Transformation):
+a. Erstellen sie die BWT-Transformation für das Wort ANANAS und überprüfen 
+sie mit der Rücktransformation ihr Resultat.
+
+### Rotiert
+| Zeile | Wort |
+| --- | --- |
+| 1. | **A**NANAS |
+| 2. | S**A**NANA |
+| 3. | AS**A**NAN |
+| 4. | NAS**A**NA |
+| 5. | ANAS**A**N |
+| 6. | NANAS**A** |
+
+### Alphabethisch
+| Zeile | Wort |
+| --- | --- |
+| 1. | **A**NANAS |
+| 2. | 
+
+b. Sie erhalten den Code IICRTGH6 in der Burrows-Wheeler-Transformation. 
+Welches Wort verbirgt sich dahinter?
