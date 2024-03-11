@@ -12,6 +12,10 @@
 - [Aufgabe 7](#aufgabe-7)
 - [Aufgabe 8](#aufgabe-8)
 - [Aufgabe 9](#aufgabe-9)
+    - [RAW-Format:](#raw-format)
+    - [Verwendungszwecke des RAW-Formats:](#verwendungszwecke-des-raw-formats)
+    - [JPG-Format:](#jpg-format)
+    - [Verwendungszwecke des JPG-Formats:](#verwendungszwecke-des-jpg-formats)
 
 ---------------------------------------
 
@@ -77,7 +81,25 @@ Für welche Bildformate werden sie sich entscheiden? Begründen sie! **1200x800*
 # Aufgabe 5
 Sie haben ein 30-Zoll-Display (Diagonale) im Format 16:10 und 100ppi erworben. Was ist die Pixelauflösung horizontal und vertikal?
 
-**TO BE CONTINUE**
+Höhe = Diagonale * (10 / √(16² + 10²))
+Höhe = 30 * (10 / √(256 + 100))
+Höhe = 30 * (10 / √356)
+Höhe ≈ 30 * (10 / 18.87)
+Höhe ≈ 30 * 0.5297
+Höhe ≈ 15.89 Zoll
+
+Breite = Höhe * (16 / 10)
+Breite ≈ 15.89 * (16 / 10)
+Breite ≈ 25.42 Zoll
+
+Horizontale Pixelauflösung = Breite * PPI
+Horizontale Pixelauflösung ≈ 25.42 * 100
+Horizontale Pixelauflösung ≈ 2542 Pixel
+Vertikale Pixelauflösung = Höhe * PPI
+Vertikale Pixelauflösung ≈ 15.89 * 100
+Vertikale Pixelauflösung ≈ 1589 Pixel
+
+**2542x1589**
 
 # Aufgabe 6
 Sie drucken ein quadratisches Foto mit einer Kantenlänge von 2000 Pixel mit 600dpi. Wie gross in cm wird dieses?
@@ -97,14 +119,75 @@ Größe des Fotos in cm ≈ 8,47 cm
 # Aufgabe 7
 Berechnen sie den Speicherbedarf für ein unkomprimiertes Einzelbild im HD1080p50-Format bei einer True-Color-Farbauflösung.
 
-**TO BE CONTINUE**
+Gegeben:
+- Breite = 1920 Pixel
+- Höhe = 1080 Pixel
+
+**Anzahl der Pixel im Bild = Breite x Höhe**
+
+Anzahl der Pixel im Bild = 1920 x 1080 = 2,073,600 Pixel
+Da jeder Pixel mit 24 Bit Farbtiefe dargestellt wird, benötigen wir 24 Bit pro Pixel.
+Speicherbedarf für ein Einzelbild = Anzahl der Pixel im Bild x Farbtiefe
+Speicherbedarf für ein Einzelbild = 2,073,600 Pixel x 24 Bit
+Speicherbedarf für ein Einzelbild = 49,766,400 Bit
+
+Um den Speicherbedarf in Byte umzurechnen, teilen wir den Wert durch 8:
+- Speicherbedarf für ein Einzelbild = 49,766,400 Bit / 8 = 6,220,800 Byte
+
+Um den Speicherbedarf in Megabyte (MB) umzurechnen, teilen wir den Wert durch 1,048,576 (da 1 Megabyte = 1,048,576 Byte):
+
+- Speicherbedarf für ein Einzelbild = 6,220,800 Byte / 1,048,576 = 5.9375 MB
+
+Der Speicherbedarf für ein unkomprimiertes Einzelbild im HD1080p50-Format bei True-Color-Farbauflösung beträgt etwa 5,9375 Megabyte.
 
 # Aufgabe 8
 Welchen Speicherbedarf aus einer HD (Massvorsatz im IEC-Format) hat das Video aus der vorangegangenen Aufgabe bei einer Spieldauer von 3 Minuten?
 
-**TO BE CONTINUE**
+Gegeben:
+- 5,9375 Megabyte
+- 50 Bildern pro
+
+**Anzahl der Bilder = Bildwiederholrate (Bilder pro Sekunde) x Dauer (in Sekunden)**
+
+Bildwiederholrate = 50 Bilder pro Sekunde
+Dauer = 3 Minuten = 3 x 60 Sekunden = 180 Sekunden
+Anzahl der Bilder = 50 x 180 = 9,000 Bilder
+
+Um den Speicherbedarf des Videos zu berechnen, multiplizieren wir den Speicherbedarf pro Einzelbild mit der Anzahl der Bilder:
+
+**Speicherbedarf des Videos = Speicherbedarf pro Einzelbild x Anzahl der Bilder**
+
+Speicherbedarf des Videos = 5,9375 Megabyte x 9,000
+Speicherbedarf des Videos ≈ 53,437.5 Megabyte
+
+Der Speicherbedarf des Videos bei einer Spieldauer von 3 Minuten beträgt ungefähr 53,437.5 Megabyte.
 
 # Aufgabe 9
 Ihre Digitalkamera bietet für die Speicherung ihrer Bilder die beiden Formate RAW und JPG an. Wo liegen die Unterschiede und was sind die Verwendungszwecke?.
 
-**TO BE CONTINUE**
+### RAW-Format:
+- RAW ist ein unkomprimiertes Dateiformat, das alle Rohdaten, die von der Kamera erfasst wurden, speichert.
+- Es enthält alle Bildinformationen, die von den Bildsensoren erfasst wurden, ohne jegliche interne Verarbeitung oder Komprimierung.
+- RAW-Dateien bieten eine höhere Flexibilität bei der Nachbearbeitung, da sie mehr Spielraum für Belichtungskorrekturen, Weißabgleichsanpassungen und andere Einstellungen bieten.
+- Sie ermöglichen eine verlustfreie Bearbeitung der Bilder, da sie keine Komprimierung oder Datenreduktion enthalten.
+- RAW-Dateien sind in der Regel größer als JPG-Dateien, da sie mehr Speicherplatz für die Speicherung der unverarbeiteten Bilddaten benötigen.
+- Das RAW-Format erfordert spezielle Software oder RAW-Konverter, um die Dateien in ein bearbeitbares oder druckbares Format 
+
+### Verwendungszwecke des RAW-Formats:
+
+- Professionelle Fotografen und fortgeschrittene Hobbyisten verwenden oft das RAW-Format, um die maximale Kontrolle über ihre Bilder und eine umfassende Nachbearbeitung zu haben.
+- Es wird empfohlen, RAW zu verwenden, wenn man in schwierigen Lichtsituationen arbeitet, wo eine genaue Belichtungskorrektur erforderlich ist.
+- Wenn man die Endbearbeitung der Bilder selbst durchführen möchte, bietet das RAW-Format die beste Flexibilität und Qualität.umzuwandeln.
+
+### JPG-Format:
+- JPG ist ein komprimiertes Dateiformat, das eine verlustbehaftete Komprimierung verwendet, um die Dateigröße zu reduzieren.
+- Bei der Komprimierung gehen bestimmte Bildinformationen verloren, was zu einem geringen Qualitätsverlust führen kann. Die Komprimierung kann Artefakte wie Blockbildung oder Schärfeverluste verursachen.
+- JPG-Dateien sind in der Regel kleiner als RAW-Dateien und nehmen weniger Speicherplatz ein.
+- Die meisten Kameras bieten verschiedene Qualitätsstufen für JPG-Dateien an, um die Dateigröße anzupassen und die Bildqualität zu beeinflussen.
+- JPG-Dateien sind sofort einsatzbereit und können direkt aus der Kamera geteilt, gedruckt oder online veröffentlicht werden.
+
+### Verwendungszwecke des JPG-Formats:
+
+- JPG wird häufig für den allgemeinen Gebrauch verwendet, wo eine sofortige Verwendung der Bilder ohne umfangreiche Bearbeitung erforderlich ist.
+- Es eignet sich gut für den schnellen Austausch von Bildern über soziale Medien, E-Mails oder Online-Galerien.
+- JPG wird oft von Hobbyfotografen oder Gelegenheitsnutzern gewählt, die weniger Zeit für die Nachbearbeitung aufwenden möchten.
