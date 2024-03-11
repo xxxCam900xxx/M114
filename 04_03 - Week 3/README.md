@@ -1,7 +1,7 @@
-# Title
+# 04.03 - Week 3
 
 ### Inhaltsverzeichnis
-- [Title](#title)
+- [04.03 - Week 3](#0403---week-3)
     - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [Theorie](#theorie)
     - [VLC](#vlc)
