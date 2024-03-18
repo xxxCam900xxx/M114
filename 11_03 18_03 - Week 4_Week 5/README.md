@@ -16,7 +16,8 @@
     - [Verwendungszwecke des RAW-Formats:](#verwendungszwecke-des-raw-formats)
     - [JPG-Format:](#jpg-format)
     - [Verwendungszwecke des JPG-Formats:](#verwendungszwecke-des-jpg-formats)
-- [Aufgabe 10](#aufgabe-10)
+- [18.03 - Week 5](#1803---week-5)
+    - [Aufgabe 10](#aufgabe-10)
 
 ---------------------------------------
 
@@ -193,5 +194,7 @@ Ihre Digitalkamera bietet für die Speicherung ihrer Bilder die beiden Formate R
 - Es eignet sich gut für den schnellen Austausch von Bildern über soziale Medien, E-Mails oder Online-Galerien.
 - JPG wird oft von Hobbyfotografen oder Gelegenheitsnutzern gewählt, die weniger Zeit für die Nachbearbeitung aufwenden möchten.
 
-# Aufgabe 10
+# 18.03 - Week 5
+
+### Aufgabe 10
 Sie möchten ihr neulich erstelltes Gameplay-Video auf Youtube veröffentlichen. Was sind die technischen Vorgaben dazu? (Format, Bildrate, Farbauflösung, Video-, Audiocodec etc.). Gibt es allenfalls rechtliche Einschränkungen?
