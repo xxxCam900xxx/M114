@@ -18,6 +18,7 @@
 ## Kompetenzen
 
 > [!NOTE]
+> 
 > Codierungen von Daten situationsbezogen auswählen und einsetzen. Aufzeigen, welche Auswirkung die Codierung auf die Darstellung von Daten hat.
 >
 >
