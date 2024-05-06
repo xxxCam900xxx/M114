@@ -4,6 +4,10 @@
 - [Week1 - 19.02.2024](/19_02%20-%20Week%201/README.md)
 - [Week2 - 26.02.2024](/26_02%20-%20Week%202/README.md)
 - [Week3 - 04.03.2024](/04_03%20-%20Week%203/README.md)
+- [Week4 - 11.03.2024](/11_03%20-%20Week%204/README.md)
+- [Week5 - 18.03.2024](/18_03%20-%20Week%205/README.md)
+- [Week7 - 08.04.2024](/08_04%20-%20Week%207/README.md)
+- [Week9 - 06.05.2024](/06_05%20-%20Week%209/README.md)
 - [Huffmann Aufgabenstellung](/Huffmann/README.md)
 - [Kompetenzen](#kompetenzen)
 
