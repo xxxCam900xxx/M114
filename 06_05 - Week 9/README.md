@@ -10,6 +10,7 @@
 ### ThunderBird
 
 ![](/06_05%20-%20Week%209/Content/Unverschlüsselt.png)
+![](/06_05%20-%20Week%209/Content/UnverschlüsseltEmpf.png)
 
 
 ![](/06_05%20-%20Week%209/Content/OpenPGPKeyOnline.png)
@@ -19,3 +20,4 @@
 
 
 ![](/06_05%20-%20Week%209/Content/Verschlüsselt.png)
+![](/06_05%20-%20Week%209/Content/VerschlüsseltEmpf.png)
