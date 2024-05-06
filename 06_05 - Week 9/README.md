@@ -18,6 +18,7 @@
 
 ![](/06_05%20-%20Week%209/Content/KeyServer.png)
 
+![](/06_05%20-%20Week%209/Content/KeyIsOnline.png)
 
 ![](/06_05%20-%20Week%209/Content/Verschlüsselt.png)
 ![](/06_05%20-%20Week%209/Content/VerschlüsseltEmpf.png)
