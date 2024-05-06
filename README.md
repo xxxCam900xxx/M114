@@ -1,6 +1,6 @@
 # M114 - Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen
 
-# Inhaltsverzeichnis
+## Inhaltsverzeichnis
 - [Week1 - 19.02.2024](/19_02%20-%20Week%201/README.md)
 - [Week2 - 26.02.2024](/26_02%20-%20Week%202/README.md)
 - [Week3 - 04.03.2024](/04_03%20-%20Week%203/README.md)
@@ -13,7 +13,7 @@
 
 -------------
 
-# Kompetenzen
+## Kompetenzen
 
 > [!NOTE]
 > Codierungen von Daten situationsbezogen auswählen und einsetzen. Aufzeigen, welche Auswirkung die Codierung auf die Darstellung von Daten hat.
